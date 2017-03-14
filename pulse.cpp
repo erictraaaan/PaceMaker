@@ -3,10 +3,6 @@
 #include "pulse.h"
 #include "rtos.h"
 
-#pragma once
-#include "mbed.h"
-#include "pulse.h"
-
 pulse::pulse():
 atrialIn(A0),      // Pin A0
  ventricleIn(A1),      // Pin A1
